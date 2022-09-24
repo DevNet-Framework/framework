@@ -1,0 +1,19 @@
+{
+    "name": "devnet/framework",
+    "description": "The DevNet Framework Repository",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Moussaoui",
+            "email": "m.moussaoui@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "7.4 - 8.1",
+        "devnet/core": "1.0.*",
+        "devnet/cli": "1.0.*",
+        "devnet/web": "1.0.*",
+        "devnet/entity": "1.0.*"
+    }
+}
