@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "7.4 - 8.1",
+        "php": "^8.0",
         "devnet/core": "1.0.*",
         "devnet/cli": "1.0.*",
         "devnet/web": "1.0.*",
