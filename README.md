@@ -6,7 +6,7 @@ This dependency is the main repository of **DevNet Framework**, and it includes 
 - [devnet/entity](https://github.com/DevNet-Framework/entity) an object-relational mapping system that helps to manipulate databases in an object-oriented way.
 
 ## Requirements
-- [PHP](https://www.php.net/) version 7.4 to 8.1
+- [PHP](https://www.php.net/) version 8.1 or higher
 - [Composer](https://getcomposer.org/) version 2.0 or higher
 
 ## Installation
@@ -21,7 +21,7 @@ You can install DevNet Framework globally in your system, by run the following c
 composer global require devnet/framework
 ```
 
->**Note:** In order to run DevNet CLI globally in linux os, you need to add composer **bin** into the system environment variables.  
+>**Note:** when you install composer in Linux operating system, please do not forget to add composer/vendor/bin into the system environment variables inside the file .bashrc like this:  
 >`echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc`
 
 ## Documentation
