@@ -1,28 +1,23 @@
 # DevNet Framework
-This dependency is the main repository of **DevNet Framework**, and it includes the following packages:
-- [devnet/core](https://github.com/DevNet-Framework/core) a runtime and base class library that is essential for all DevNet applications and packages.
-- [devnet/cli](https://github.com/DevNet-Framework/cli) a command-line interface tool, for creating console applications and managing DevNet projects.
-- [devnet/web](https://github.com/DevNet-Framework/web) a collection of web components that helps to create modern web applications and web APIs.
-- [devnet/entity](https://github.com/DevNet-Framework/entity) an object-relational mapping system that helps to manipulate databases in an object-oriented way.
+This dependency is a meta-package that will install all the libraries of **DevNet Framework**
 
 ## Requirements
 - [PHP](https://www.php.net/) version 8.1 or higher
 - [Composer](https://getcomposer.org/) version 2.0 or higher
 
+>**Note:** If you are using composer on a Linux operating system, please make sure that you have added the path "composer/vendor/bin" to the system environment variables in the ".bashrc" file as follows:  
+>`echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc`
+
 ## Installation
-You can install DevNet Framework in your project, by running the following command in the terminal:
-
-```bash
-composer require devnet/framework
-```
-
-You can install DevNet Framework globally in your system, by run the following command in the terminal:
+You can install DevNet Framework globally in your system, by running the following command in the terminal:
 ```
 composer global require devnet/framework
 ```
 
->**Note:** when you install composer in Linux operating system, please do not forget to add composer/vendor/bin into the system environment variables inside the file .bashrc like this:  
->`echo 'export PATH="$PATH:$HOME/.config/composer/vendor/bin"' >> ~/.bashrc`
+Or, you can install DevNet Framework locally in your project, by running the following command:
+```
+composer require devnet/framework
+```
 
 ## Documentation
 Full documentation on how to use **DevNet Framework** is available at [devnet-framework.github.io](https://devnet-framework.github.io)

@@ -1,6 +1,6 @@
 {
     "name": "devnet/framework",
-    "description": "The DevNet Framework Repository",
+    "description": "The DevNet Framework Installer",
     "type": "metapackage",
     "license": "MIT",
     "authors": [
@@ -11,9 +11,8 @@
     ],
     "require": {
         "php": "^8.1",
-        "devnet/core": "1.0.*",
-        "devnet/cli": "1.0.*",
-        "devnet/web": "1.0.*",
-        "devnet/entity": "1.0.*"
+        "devnet/cli": "1.1.*",
+        "devnet/core": "1.1.*",
+        "devnet/orm": "1.1.*"
     }
 }
